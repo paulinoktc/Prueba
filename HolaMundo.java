@@ -1,7 +1,7 @@
 public class HolaMundo {
 	public static void main(String[]args){
 		for (int i=0;i<10 ;i++ ) {
-		new HolaMundo().mensaje("Hola Mundo");			
+		new HolaMundo().mensaje("Line: "+i);			
 		}
 	}
 	public void mensaje(String mensaje){
