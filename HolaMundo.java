@@ -1,5 +1,8 @@
-public class HolaMnundo {
+public class HolaMundo {
 	public static void main(String[]args){
-		System.out.println("Hola mundo");
+		new HolaMundo().mensaje("Hola Mundo");
+	}
+	public void mensaje(String mensaje){
+		System.out.println(mensaje);		
 	}
 }
